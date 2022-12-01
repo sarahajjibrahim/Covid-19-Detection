@@ -1,3 +1,4 @@
+# Covid-19 Detection using Deep Learning and Segmentation 
 How to run experiment:
 1) Go to experiments folder
 2) 3 files for segmentation (flood_segmentation.py, unet_segmentation.py, kmeans_segmentation.py )
@@ -13,9 +14,9 @@ Run WebApp (Using flask) to run experiment on single image using best model (cla
 5) Submit x-ray and filter to display result
 
 For training U-net segmentation model on masks:
-1) Download the CXR_png, masks and test folders from https://www.kaggle.com/code/nikhilpandey360/lung-segmentation-from-chest-x-ray-dataset/data
+1) Download the CXR_png, masks and test folders from [Lung segmentation from Chest X-Ray dataset](https://www.kaggle.com/code/nikhilpandey360/lung-segmentation-from-chest-x-ray-dataset/data)
 2) Copy the folders (CXR_png, masks, test) under \Experiments\data\unsegmented + unet masks\ 
 
 For Data analysis and evaluation: 
-1) Download the Normal and Covid data without or without masks from https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+1) Download the Normal and Covid data without or without masks from [COVID-19 Radiography Database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database)
 2) Copy the folders (COVID, Normal) under \Experiments\data\unsegmented\
