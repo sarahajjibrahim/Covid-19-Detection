@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ' Covid-19-Detection-using-Deep-learning-and-Segmentation'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Sara
+    family-names: Al Hajj Ibrahim
+    email: sarahhajibrahim1@gmail.com
+    affiliation: Ontario tech university
+    orcid: 'https://orcid.org/0000-0002-1794-5364'
